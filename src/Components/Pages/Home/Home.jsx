@@ -5,7 +5,9 @@ import Exploremenu from '../../Exploremenu/Exploremenu';
 import Fooddisplay from '../../Fooddisplay/Fooddisplay';
 import Appdownload from '../../Appdownload/Appdownload';
 
+
 const Home = () => {
+  
     const[category,setCategory]=useState("All");
 
   return (
